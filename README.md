@@ -4,6 +4,8 @@
 
 ## Installation & Deployment
 
+The zeek script created by `explore-mms` is based on the MMS zeek plugin and the corresponding protocol stack. These zeek plugins can be installed using `zkg unbundle mms-1.0.bundle`. Alternatively, the plugins can be built and installed manually as described in [MMS](https://github.com/DINA-community/icsnpp-mms). 
+
 Since the binary is **statically linked**, it can be used on almost any recent Linux system (x86-64) without requiring the `libiec61850` library to be installed on the system.
 
 Just copy the generated `explore-mms` binary anywhere and execute it directly.
